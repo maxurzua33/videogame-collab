@@ -15,8 +15,8 @@ class Enemy(pygame.sprite.Sprite):
         self.image = BUGpng_scaled
         self.rect = self.image.get_rect(
             center=(
-                screen.get_height() - 100,
-                random.randint(-screen.get_width(), 0),
+                random.randint(0, screen.get_width()),
+                - 10,
                 
             )
         )
