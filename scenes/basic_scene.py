@@ -13,6 +13,7 @@ def gameloop(screen):
     font = pygame.font.Font(None, 48)
     line1 = font.render("Estamos en basic_scene", True, (255, 255, 255))
     line2 = font.render("Aprieta ESC para salir de esta escena", True, (255, 255, 255))
+    line3 = font.render("Aprieta ESC para salir de esta escena", True, (250, 250, 355))
 
     # Definimos las posiciones de los textos
     line1_rect = line1.get_rect(
